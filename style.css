@@ -26,5 +26,6 @@ i{
     }
     .navbar-toggler .navbar-toggler-icon {
         font-size: 1.25rem;
+        margin-right: 30px;
       }
 }
