@@ -1,0 +1,27 @@
+.body{
+    font-family: Noto Sans', sans-serif;
+}
+i{
+    font-size: 12px;
+    margin-left: 10px;
+}
+.nav-link{
+    color: black;
+}
+.nav-link:hover{
+
+    text-decoration: underline;
+}
+@media(max-width: 991px){
+    .sidebar{
+        backdrop-filter: blur(30px);
+    }
+    .hidden-bar{
+        margin-top: 90%;
+        display: flex;
+        
+    }
+    .hidden-bar .hide{
+        display: flex;
+    }
+}

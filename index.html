@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!-- stylesheeet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Imperial+Script&family=Noto+Sans+Cypro+Minoan&family=Noto+Sans:wght@100;200;300;400&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Poppins:wght@400;500&family=Source+Code+Pro:wght@400;700&family=Tektur:wght@500&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>KFC</title>
+</head>
+<body class="vh-100 overflow-hidden">
+  <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="https://seeklogo.com/images/K/kfc-logo-8BDC0504EB-seeklogo.com.png" class="w-50 ms-5 mt-2"></a>
+          <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <img src="https://seeklogo.com/images/K/kfc-logo-8BDC0504EB-seeklogo.com.png" class="w-50 ms-5 mt-2">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body ">
+              <ul class="navbar-nav d-flex justify-content-center container w-75">
+                <li class="nav-item fs-5"><a class="nav-link " href="#home">Menu</a></li>
+                <li class="nav-item fs-5"><a class="nav-link" href="#skills">Careers</a></li>
+                <li class="nav-item fs-5"><a class="nav-link" href="#about">Merch</a></li>
+                <li class="nav-item fs-5"><a class="nav-link" href="#contact">Find a KFC<i class="fa-solid fa-arrow-up-right-from-square "></i></a></li>
+              </ul>
+              <div class="hidden-bar">
+                <div class="d-flex justify-content-end align-items-center gap-5">
+                  <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                        <path d="M23.64 21.86l-5.92-5.94a9.46 9.46 0 0 0 2.35-6.23c0-5.34-4.5-9.69-10.04-9.69S0 4.35 0 9.69c0 5.34 4.5 9.69 10.04 9.69 2.08 0 4.06-.6 5.75-1.75l5.96 5.98c.25.25.58.39.94.39.34 0 .66-.13.91-.35.52-.48.54-1.28.04-1.79zM10.04 2.53c4.09 0 7.42 3.21 7.42 7.16 0 3.95-3.33 7.16-7.42 7.16S2.62 13.64 2.62 9.69c0-3.95 3.33-7.16 7.42-7.16z" fill="#202124"/>
+                    </svg>
+                  </a>
+                  <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 30 30">
+                        <path d="M15 10c0 2.4 1.9 5.4 4.3 5.4s4.3-3 4.3-5.4c0-2.4-1.9-4.3-4.3-4.3s-4.3 2-4.3 4.3z"></path>
+                        <path d="M30 15c0 8.2-6.7 14.9-14.9 14.9C6.7 29.9 0 23.2 0 15S6.7 0.1 14.9 0.1 29.8 6.8 29.8 15zM15 27.9c7.1 0 12.9-5.8 12.9-12.9S22.1 2.1 15 2.1 2.1 7.9 2.1 15 7.9 27.9 15 27.9z"></path>
+                        <path d="M13 21v-.3c.1-.6.2-2.2.2-2.6 0-.4.2-.9.4-1.2H13c-1.1.1-1.8.1-1.9.1-.1 0-.1-.1-.1-.4v-.2-.3-.5c0-.1.1-.1.5-.1s1.5.1 1.9.1c.4.1.5.2.5.2s.1-.2.3-.2h1c.2 0 .3.2.3.2s.1-.1.5-.2c.3-.1 1.4-.1 1.7-.2.4 0 .4 0 .5.1v1.5h-.1c-.1 0-.4 0-1.9-.2H16c.1.3.4.8.4 1.2 0 .3.1 1.4.2 2.1v.6c-.4.1-.8.2-1.3.2-.1-.9-.2-2.7-.2-3.2V18c0-.1.1-.2.1-.4h-.4c-.1 0-.3 0-.4-.1.1.2.1.3.1.5v.2c0 .4-.1 1.7-.2 3.2-.5.2-1 .1-1.4.1z"></path>
+                        <path d="M15 29.8c-5.3 0-9.6-1.6-9.6-7.5 0-1.7 1.8-3.9 4.4-5.2L10 27.8h7.7l1.4-11.6c2.7 1.3 4.4 3.5 4.4 5.2 0 5.9-4.3 7.5-9.6 7.5z"></path>
+                    </svg>
+                  </a>
+                  <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                        <path d="M18 24H3c-1 0-2-1-2-2V1c0-1 1-2 2-2h15c1 0 2 1 2 2v21c0 1-1 2-2 2z" fill="#FFF"/>
+                        <path d="M4 23H1l1-21h4l-1 22zM22 22l-3 1h-3L16 1h4l2 21z" fill="#E52E2A"/>
+                        <path d="M18 24H3c-1 0-2-1-2-2V1c0-1 1-2 2-2h15c1 0 2 1 2 2v21c0 1-1 2-2 2zM4 1c-1 0-2 1-2 2v21c0 1 1 2 2 2h15c1 0 2-1 2-2V3c0-1-1-2-2-2H4z"/>
+                        <path d="M13 6c-3 0-5-2-5-5h1c0 2 2 3 3 3s3-1 3-3h1c0 3-2 5-5 5zM19 21l1 2h2c1 0 2-1 2-2L20 1h-1l1 22z"/>
+                    </svg>
+                  </a>
+                  <a href="" class="text-white text-decoration-none pt-2 pb-2 ps-3 pe-3 rounded-4 fs-5 " style="background-color: #e4002b; width:auto">Start Order</a></div>
+                
+              </div>
+              </div>
+          </div>
+        </div>
+      </nav>
+    
+</body>
+</html>
