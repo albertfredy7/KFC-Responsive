@@ -24,8 +24,8 @@
     <nav class="navbar navbar-expand-lg fixed-top ">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="https://seeklogo.com/images/K/kfc-logo-8BDC0504EB-seeklogo.com.png" class="w-25 ms-3 mt-2"></a>
-          <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" style="position:relative; margin-left: auto; margin-right: 10%; margin-top: -45px;">
-          <span class="navbar-toggler-icon " style="position: fixed;"></span>
+          <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" style="position:relative; margin-left: auto; margin-right: 10%; margin-top: -55px; ">
+          <span class="navbar-toggler-icon" style="position: fixed;"></span>
           </button>
           <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
@@ -39,7 +39,7 @@
                 <li class="nav-item fs-5"><a class="nav-link" href="#about">Merch</a></li>
                 <li class="nav-item fs-5"><a class="nav-link" href="#contact">Find a KFC<i class="fa-solid fa-arrow-up-right-from-square "></i></a></li>
               </ul>
-              <div class="hidden-bar">
+              <div class="hidden-bar d-flex justify-content-end align-items-center gap-5 flex-lg-row">
                 <div class="d-flex justify-content-end align-items-center gap-5 p-4 flex-lg-row">
                     <a href="">
                       <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
@@ -71,9 +71,10 @@
         </div>
       </nav>
 
-      <section>
-        <div class="w-100" style="position: relative;">
-          <i class="fa-solid fa-location-dot" style="color: #ff0000;"></i>
+      <section class="mt-5 pt-5">
+        <div class="w-100 d-flex justify-content-center bg-dark align-items-center" style="position: relative; height: calc(10vh - 56px); margin-top: 40px;"> <!-- 56px is the typical height of the fixed-top navbar -->
+          <i class="fa-solid fa-location-dot me-2" style="color: #ff0000; font-size: auto; font-size: 15px;"></i>
+          <span class="text-white"> Start an Order for Pickup or Delivery</span>
         </div>
       </section>
     

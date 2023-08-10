@@ -17,7 +17,7 @@ i{
         backdrop-filter: blur(30px);
     }
     .hidden-bar{
-        margin-top: 90%;
+        margin-top: 126%;
         display: flex;
         
     }
@@ -28,4 +28,8 @@ i{
         font-size: 1.25rem;
         margin-right: 30px;
       }
+
+    
 }
+
+
