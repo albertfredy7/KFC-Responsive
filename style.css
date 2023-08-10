@@ -17,11 +17,14 @@ i{
         backdrop-filter: blur(30px);
     }
     .hidden-bar{
-        margin-top: 90%;
+        margin-top: 20%;
         display: flex;
         
     }
     .hidden-bar .hide{
         display: flex;
     }
+    .navbar-toggler .navbar-toggler-icon {
+        font-size: 1.25rem;
+      }
 }
